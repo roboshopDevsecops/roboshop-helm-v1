@@ -9,7 +9,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "terraform-state-d88"
+    bucket = "terraform-state-mkreddy-devmonkey"
     key    = "roboshop-awsssm/terraform.tfstate"
     region = "us-east-1"
   }
