@@ -6,7 +6,7 @@ metadata:
 spec:
   ingressClassName: traefik
   rules:
-    - host: {{ .Values.appName }}-dev.raghudevopsb88.online
+    - host: {{ .Values.appName }}-dev.devmonkey.online
       http:
         paths:
           - path: /
